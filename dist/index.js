@@ -417,7 +417,7 @@ const main = async () => {
     const discussion = await octokit.teams.createDiscussionInOrg({
       org: organization,
       team_slug: team,
-      title: `Standup (${date})`,
+      title: `Daily Report (${date})`,
       body: content
     });
 
